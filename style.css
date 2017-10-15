@@ -378,7 +378,7 @@ section h2, section h3 { text-shadow: none; }
 .testimonial:hover { background: #415b73; }
 .testimonial p { text-shadow: none; }
 /*
- .contact, #contact, #emailsent { background: #d27878; }
+.contact, #contact, #emailsent { background: #d27878; }
 */
 #emailsent.ok { background: #83bd82; }
 #emailsent.error { background: #d27878; }
