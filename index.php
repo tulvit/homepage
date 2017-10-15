@@ -151,7 +151,7 @@ responsive/adaptive design, usability, UX, blogging, management, support ... you
       <h3>Misc</h3>
       <strong>Hobbies:</strong> fishing, music (button accordion, piano, harmonica), art (drawing/painting)<br>
       <strong>Games:</strong> Texas hold'em, chess, Quake<br>
-      <strong>Music artists:</strong> Frank Sinatra, Ray Charles, Bryan Ferry, Michael Jackson, Queen, Pet Shop Boys, Kylie Minogue, Boney M, Army of Lovers, Aqua, Miss 600, Berryz Koubou, Mireille Mathieu, Joe Dassin, Patricia Kaas, Francoise Hardy, Zaz, Alizée<br>
+      <strong>Music artists:</strong> Frank Sinatra, Ray Charles, Bryan Ferry, Michael Jackson, Queen, Pet Shop Boys, Elton John, Kylie Minogue, Boney M, Army of Lovers, Aqua, Miss 600, Berryz Koubou, Mireille Mathieu, Joe Dassin, Patricia Kaas, Francoise Hardy, Zaz, Alizée<br>
       <strong>Bad habits:</strong> pipe smoking<br>
     <div class="totop"></div>
   </div>
