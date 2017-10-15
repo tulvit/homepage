@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vitaly Tulin a/k/a tulvit | 1Homepage</title>
+  <title>Vitaly Tulin a/k/a tulvit | Homepage</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600" rel="stylesheet">
   <link rel="stylesheet" href="style.css" type="text/css">
