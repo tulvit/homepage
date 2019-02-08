@@ -152,7 +152,7 @@ responsive/adaptive design, usability, UX, blogging, management, support ... you
       <ul>
         <li>
           <a href="https://twitter.com/tulvit">twitter.com/tulvit</a><br>
-          <em>Twitting mostly in Russina.</em>
+          <em>Twitting mostly in Russian.</em>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/tulvit">linkedin.com/in/tulvit</a><br>
