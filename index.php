@@ -281,7 +281,7 @@ responsive/adaptive design, usability, UX, blogging, management, support ... you
     </div>
     <div class="clearfix"></div>
     </div>
-
+    <!--
     <h3>WISCA</h3>
     <div class="project">
     <a href="http://wisca.ru"><img src="files/wisca.png" alt="WISCA"></a>
@@ -295,6 +295,7 @@ responsive/adaptive design, usability, UX, blogging, management, support ... you
     </div>
     <div class="clearfix"></div>
     </div>
+    -->
     
     <div class="totop"></div>
   </div>
