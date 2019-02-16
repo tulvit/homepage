@@ -39,7 +39,7 @@
       <li><a class="about" href="#about">About</a></li>
       <li><a class="links" href="#links">Links</a></li>
       <li><a class="projects" href="#projects">Projects</a></li>
-      <li><a class="opensource" href="#opensource">Open&nbsp;Source</a></li>
+      <!--<li><a class="opensource" href="#opensource">Open&nbsp;Source</a></li>-->
       <li><a class="workedwith" href="#workedwith">Worked&nbsp;with</a></li>
       <li><a class="testimonials" href="#testimonials">Testimonials</a></li>
       <li><a class="contact" href="#contact">Contact</a></li>
@@ -300,7 +300,7 @@ responsive/adaptive design, usability, UX, blogging, management, support ... you
     <div class="totop"></div>
   </div>
 </section>
-  
+<!--
 <section id="opensource">
   <div class="content">
     <h2>Open Source</h2>
@@ -308,7 +308,7 @@ responsive/adaptive design, usability, UX, blogging, management, support ... you
     <div class="totop"></div>
   </div>
 </section>
-
+-->
 <section id="workedwith">
   <div class="content">
     <h2>Worked with</h2>
