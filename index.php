@@ -212,10 +212,6 @@ responsive/adaptive design, usability, UX, blogging, management, support ... you
           <em>Personal blog in Russian.</em>
         </li>
         <li>
-          <a href="http://demo.tulvit.net">demo.tulvit.net</a><br>
-          <em>Demos of Open Source projects.</em>
-        </li>
-        <li>
           <a href="http://dev.tulvit.net">dev.tulvit.net</a><br>
           <em>Server for a development purposes.</em>
         </li>
