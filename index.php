@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600" rel="stylesheet">
   <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="stylesheet" href="scripts/jquery.powertip/css/jquery.powertip.min.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
 
 <body>
@@ -403,7 +404,6 @@ Vitaly was very flexible and willing to try different things until I was happy. 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="scripts/clipboard.js-master/clipboard.min.js"></script>
 <script src="scripts/jquery.powertip/jquery.powertip.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <script src="scripts/script.js?03052017"></script>
 <script src="/scripts/myApp.js"></script>
 <script src="/scripts/myCtrl.js"></script>
