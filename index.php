@@ -96,6 +96,12 @@ HTML;
 }
 ?>
 <section id="about">
+  <div class="ng" data-ng-app="myApp" data-ng-controller="myCtrl">
+  <input type="text" data-ng-model="name" />
+  <p><strong style="color:{{color}}" data-ng-bind="name"></strong></p>
+  {{10 + 10}}
+  </div><!-- end of ng-app" -->
+  
   <div class="content">
     <h2>About</h2>
       <p>
@@ -397,7 +403,10 @@ Vitaly was very flexible and willing to try different things until I was happy. 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="scripts/clipboard.js-master/clipboard.min.js"></script>
 <script src="scripts/jquery.powertip/jquery.powertip.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <script src="scripts/script.js?03052017"></script>
+<script src="/scripts/myApp.js"></script>
+<script src="/scripts/myCtrl.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
