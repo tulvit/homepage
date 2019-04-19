@@ -2,16 +2,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Vitaly Tulin a/k/a tulvit | Homepage</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <link rel="stylesheet" href="scripts/jquery.powertip/css/jquery.powertip.min.css" type="text/css">
+  <?php /* <link rel="stylesheet" href="style.css" type="text/css"> */ ?>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-21523026-20', 'auto');
+  ga('send', 'pageview');
+</script>
 </head>
 
 <body>
+  <div class="container-fluid text-center bg-dark">
+        <h1 class="display-1 text-white">Vitaly Tulin <small class="text-muted">a/k/a tulvit</small></h1>
+        <a title="e-mail" href="mailto:me@tulvit.net">me@tulvit.net</a>
+        <img src="files/avatar.jpg" class="rounded-circle mx-auto d-block" alt="avatar">
+        <h3 class="display-6 text-white">Full Stack Web Deleloper <small class="text-muted">and artist</small></h3>
+  </div>
+  
+  <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <ul class="navbar-nav">
+      <li class="navbar-item"><a class="nav-link" href="#about">About</a></li>
+      <li class="navbar-item"><a class="nav-link" href="#links">Links</a></li>
+      <li class="navbar-item"><a class="nav-link" href="#projects">Projects</a></li>
+      <li class="navbar-item"><a class="nav-link" href="#workedwith">Worked&nbsp;with</a></li>
+      <li class="navbar-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+      <li class="navbar-item"><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>    
+  </nav>
+  
+  <div class="container-fluid bg-info" data-spy="scroll" data-target="#navbar" data-offset="0">
+    <div class="container">
+    <h2 class="display-2">About</h2>
+      <p>
+        <strong>Location:</strong> St. Petersburg, Russia <em>(gmt&nbsp;+3,&nbsp;local&nbsp;time&nbsp;<?php echo date('h:i a'); ?>)</em><br>
+        <strong>Languages:</strong> Russian (native), English (intermediate), French (beginner)<br>
+        <strong>Education:</strong> M.S. in Computer Science
+      </p>
+      <p>
+Over 10 years in the web industry. Hundreds of sites, dozens of niches.
+Not a full-time worker, more like an entrepreneur, an independent web developer,
+a freelancer. Always quite free and on vacation. Always quite busy with no weekends.
+At the same time.
+      </p>
+      <p>
+Full stack, literally. From a pure idea, and up to a server administration,
+front/back end development, content management, SEO/SMM, monetization, etc.
+Or, in other words, full product lifecycle, where, for instance, server programming
+and FB fan page maintenance - are just a two different sides of the same coin.
+      </p>
+      <p>
+The obvious disadvantage of this attitude is that I'm not a real "pro" in any given field,
+not even close. And the advantage is that I can solve a wide range of problems,
+can think a few steps ahead, can see the whole picture and understand what is really needed.
+      </p>
+      <h3>Buzzwords</h3>
+      <p>
+Linux, Apache, Postfix, MySQL, C++, PHP, JavaScript, jQuery, Ajax, JSON, CSS, Sass, BEM,
+SMACSS, HTML, XML, SVG, Drupal, WordPress, Joomla!, phpBB, SMF, drush, git, twig, xdebug,
+memprof, PhantomJS, wkhtmltopdf, FFmpeg, AdSense, AdWords, Amazon, ClickBank, Chitika, MediaNet, Facebook, Twitter,
+Tumblr, Youtube, affiliate marketing, SEO (black/grey/white hat), SMO/SMM, design,
+responsive/adaptive design, usability, UX, blogging, management, support ... you name it
+      </p>
+      <h3>Preferences</h3>
+      <strong>OS:</strong> Ubuntu (desktop), Debian (servers), Windows (Photoshop)<br>
+      <strong>Stack:</strong> LAMP<br>
+      <strong>CMS:</strong> Drupal<br>
+      <strong>IDE:</strong> Eclipse, CodeLite, Geany<br>
+      <strong>Version control:</strong> git<br>
+      <strong>FTP manager:</strong> Nautilus, FileZilla<br>
+      <h3>Misc</h3>
+      <strong>Hobbies:</strong> fishing, music (button accordion, piano, harmonica), art (drawing/painting)<br>
+      <strong>Games:</strong> Texas hold'em, chess, Quake<br>
+      <strong>Music artists:</strong> Frank Sinatra, Ray Charles, Bryan Ferry, Michael Jackson, Queen, Pet Shop Boys, Elton John, Kylie Minogue, Boney M, Army of Lovers, Aqua, Miss 600, Berryz Koubou, Mireille Mathieu, Joe Dassin, Patricia Kaas, Francoise Hardy, Zaz, Alizée<br>
+      <strong>Bad habits:</strong> pipe smoking<br>
+  </div>
+  </div>
+  
+  <div id="testimonial" class="container-fluid bg-dark">
+    <div class="container">
+      <h2 class="display-2">Testimonials</h2>
+<div id="carouselExampleIndicators" class="carousel slide center" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+<blockquote class="blockquote">
+  <p class="mb-0">
+Absolutely awesome to work with! Competent, fast and efficient. I'd recommend Vitaly any day. He went well beyond what was required and communicated his every move so there was no confusion. His instructions were easy to follow despite my lack of programming knowledge. Count me impressed!
+  </p>
+  <footer class="blockquote-footer">Jhon Snikder <cite title="Source Title">Company Name</cite></footer>
+</blockquote>
+    </div>
+    <div class="carousel-item">
+<blockquote class="blockquote">
+  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote>
+    </div>
+    <div class="carousel-item">
+<blockquote class="blockquote">
+  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+</blockquote>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div>
+  </div>
+  
+  <div id="links" class="container-fluid bg-warning">
+    <div class="container">
+      <h2 class="display-2">Links</h2>
+      <div class="row">
+        <div class="col-sm">
+          <h3>social</h3>
+          <ul>
+            <li>
+              <a href="https://twitter.com/tulvit">twitter.com/tulvit</a><br>
+              <em>Twitting mostly in Russian.</em>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/tulvit">linkedin.com/in/tulvit</a><br>
+              <em>Not frequent here.</em>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/tulvit">facebook.com/tulvit</a><br>
+              <em>Not a frequent user here either.</em>
+            </li>
+            <li>
+              <a href="https://vk.com/tulvit">vk.com/tulvit</a><br>
+              <em>Trying to reply within 24 hours.</em>
+            </li>
+            <li>
+              <a href="http://tulvit.deviantart.com/">tulvit.deviantart.com</a><br>
+              <em>Art related account.</em>
+            </li>
+            <li>
+              <a href="http://tulvit.tumblr.com/">tulvit.tumblr.com</a><br>
+              <em>Art related account.</em>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCpIf0phIUpSVEVY7L-aQrcg">youtube.com</a><br>
+              <em>Art related channel.</em>
+           </li>
+         </ul>
+        </div>
+        
+    <div class="col-sm">
+      <h3>web development</h3>
+      <ul>
+        <li>
+          <a href="http://stackoverflow.com/users/1003329/tulvit?tab=profile">stackoverflow.com</a><br>
+          <em>Answering on a webdev related questions.</em>
+        </li>
+        <li>
+          <a href="https://github.com/tulvit">github.com/tulvit</a><br>
+          <em>Managing several Open Source projects.</em>
+        </li>
+        <li>
+          <a href="https://www.drupal.org/u/tulvit">drupal.org/u/tulvit</a><br>
+          <em>Participating to the Drupal community.</em>
+        </li>
+        <li>
+          <a href="http://www.upwork.com/o/profiles/users/_~013ddb6375cf020ef5/">upwork.com</a><br>
+          <em>Working here as a freelancer.</em>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="col-sm">
+      <h3>sub.</h3>
+      <ul>
+        <li>
+          <a href="http://blog.tulvit.net">blog.tulvit.net</a>
+          <br>
+          <em>Personal blog in Russian.</em>
+        </li>
+        <li>
+          <a href="http://dev.tulvit.net">dev.tulvit.net</a><br>
+          <em>Server for a development purposes.</em>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </div><!-- End of #links -->
+  
+  </div><!-- End of .container -->
+<?php
+/*
 <header>
   <div class="content">
     <div class="avatar">
@@ -398,15 +596,11 @@ Vitaly was very flexible and willing to try different things until I was happy. 
 <script src="scripts/clipboard.js-master/clipboard.min.js"></script>
 <script src="scripts/jquery.powertip/jquery.powertip.min.js"></script>
 <script src="scripts/script.js?03052017"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-21523026-20', 'auto');
-  ga('send', 'pageview');
-</script>
+*/ ?>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script
 </body>
 
 </html>
