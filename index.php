@@ -32,14 +32,13 @@
     <div class="clearfix"></div>
   </div>
 </header>
-  
+
 <nav>
   <div class="content">
     <ul>
       <li><a class="about" href="#about">About</a></li>
       <li><a class="links" href="#links">Links</a></li>
       <li><a class="projects" href="#projects">Projects</a></li>
-      <!--<li><a class="opensource" href="#opensource">Open&nbsp;Source</a></li>-->
       <li><a class="workedwith" href="#workedwith">Worked&nbsp;with</a></li>
       <li><a class="testimonials" href="#testimonials">Testimonials</a></li>
       <li><a class="contact" href="#contact">Contact</a></li>
@@ -47,7 +46,7 @@
     <div class="clearfix"></div>
   </div>
 </nav>
-  
+
 <main>
 <?php
 if (!empty($_POST['submit']) AND
@@ -126,24 +125,23 @@ Linux, Apache, Postfix, MySQL, C++, PHP, JavaScript, jQuery, Ajax, JSON, CSS, 
 SMACSS, HTML, XML, SVG, Drupal, WordPress, Joomla!, phpBB, SMF, drush, git, twig, xdebug,
 memprof, PhantomJS, wkhtmltopdf, FFmpeg, AdSense, AdWords, Amazon, ClickBank, Chitika, MediaNet, Facebook, Twitter,
 Tumblr, Youtube, affiliate marketing, SEO (black/grey/white hat), SMO/SMM, design,
-responsive/adaptive design, usability, UX, blogging, management, support ... you name it
+responsive/adaptive design, usability, UX, blogging, management, support... you name it
       </p>
       <h3>Preferences</h3>
-      <strong>OS:</strong> Ubuntu (desktop), Debian (servers), Windows (Photoshop)<br>
+      <strong>OS:</strong> Ubuntu/Debian (desktop/servers)<br>
       <strong>Stack:</strong> LAMP<br>
       <strong>CMS:</strong> Drupal<br>
-      <strong>IDE:</strong> Eclipse, CodeLite, Geany<br>
+      <strong>IDE:</strong> <strike>Geany</strike> Visual Studio Code<br>
       <strong>Version control:</strong> git<br>
       <strong>FTP manager:</strong> Nautilus, FileZilla<br>
       <h3>Misc</h3>
       <strong>Hobbies:</strong> fishing, music (button accordion, piano, harmonica), art (drawing/painting)<br>
       <strong>Games:</strong> Texas hold'em, chess, Quake<br>
       <strong>Music artists:</strong> Frank Sinatra, Ray Charles, Bryan Ferry, Michael Jackson, Queen, Pet Shop Boys, Elton John, Kylie Minogue, Boney M, Army of Lovers, Aqua, Miss 600, Berryz Koubou, Mireille Mathieu, Joe Dassin, Patricia Kaas, Francoise Hardy, Zaz, Alizée<br>
-      <strong>Bad habits:</strong> pipe smoking<br>
     <div class="totop"></div>
   </div>
 </section>
-  
+
 <section id="links">
   <div class="content">
     <h2>Links</h2>
@@ -211,22 +209,18 @@ responsive/adaptive design, usability, UX, blogging, management, support ... you
           <br>
           <em>Personal blog in Russian.</em>
         </li>
-        <li>
-          <a href="http://dev.tulvit.net">dev.tulvit.net</a><br>
-          <em>Server for a development purposes.</em>
-        </li>
       </ul>
     </section>
-    
+
     <div class="justify"></div>
     <div class="totop"></div>
   </div>
 </section>
-  
+
 <section id="projects">
   <div class="content">
     <h2>Projects</h2>
-    
+
     <h3>SComedy</h3>
     <div class="project">
     <a href="http://scomedy.com"><img src="files/scomedy.png" alt="SComedy"></a>
@@ -249,7 +243,7 @@ responsive/adaptive design, usability, UX, blogging, management, support ... you
     Education and improvement oriented social network and blog platform for beginner artists.
     </p>
     </div>
-    <div class="clearfix"></div> 
+    <div class="clearfix"></div>
     </div>
     -->
     <h3>EnglishNode</h3>
@@ -292,7 +286,7 @@ responsive/adaptive design, usability, UX, blogging, management, support ... you
     <div class="clearfix"></div>
     </div>
     -->
-    
+
     <div class="totop"></div>
   </div>
 </section>
@@ -348,8 +342,8 @@ Vitaly is one of the BEST programmers I've had the pleasure of working with. He 
       <p>
 The first 3 freelancers that I hired to do my project failed. Vitaly succeeded.
  He has a great attention to details and the skills to implement.
- He is very honest and clear about what he does know and does not know. Very refreshing. 
- 
+ He is very honest and clear about what he does know and does not know. Very refreshing.
+
  I highly recommend using Vitaly.
       </p>
     </div>
@@ -385,15 +379,15 @@ Vitaly was very flexible and willing to try different things until I was happy. 
     </form>
     <div class="totop"></div>
   </div>
-  </section> 
+  </section>
   </main>
-  
+
   <footer>
   <div class="content">
     &copy; <?php echo date('Y'); ?> <a href="http://tulvit.net">tulvit</a>
   </div>
   </footer>
-  
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="scripts/clipboard.js-master/clipboard.min.js"></script>
 <script src="scripts/jquery.powertip/jquery.powertip.min.js"></script>
