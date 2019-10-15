@@ -384,7 +384,8 @@ Vitaly was very flexible and willing to try different things until I was happy. 
 
   <footer>
   <div class="content">
-    &copy; <?php echo date('Y'); ?> <a href="http://tulvit.net">tulvit</a>
+    &copy; <?php echo date('Y'); ?> <a href="http://tulvit.net">tulvit</a><br />
+    proudly hosted on <a href="https://www.linode.com/?r=bc4d615fcd139afdd46f330e2b85a33f34348329">Linode</a>
   </div>
   </footer>
 
